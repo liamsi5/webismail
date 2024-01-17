@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "ismail chafi Portfolio",
     type: "website",
-    url: "http://localhost:3000/#/home",
+    //url: "http://localhost:3000/#/home",
   },
 };
 
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Ismail Chafi",
   nickname: "Chaf-i",
   subTitle:
-    "Hello 👋  ",
+    "Welcome  👋 ",
   resumeLink:
     "https://drive.google.com/file/d/1cCtUr5H_OARCSBtI7z4ChosTpOVIaSb6/view?usp=sharing",
   portfolio_repository: "",
@@ -91,14 +91,14 @@ const skills = {
             backgroundColor: "transparent",
           },
         },
-        /*{
+        {
           skillName: "Kaggle",
           fontAwesomeClassname: "simple-icons:kaggle",
           style: {
             backgroundColor: "transparent",
             color: "#00FFFF",
           },
-        },*/
+        },
         {
           skillName: "Spyder",
           fontAwesomeClassname: "simple-icons:spyderide",
