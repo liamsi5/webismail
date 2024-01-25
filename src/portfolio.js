@@ -505,6 +505,17 @@ const experience = {
       title: "cooperative training course",
       experiences: [
         {
+          title: "Pappers ",
+          company: "Provider of financial and legal information specializing in the analysis of the financial health of businesses",
+          company_url: "https://pappers.fr/",
+          logo_path: "Pappers_logo.png",
+          duration: "Dec 2022 - Sep 2024  ",
+          location: "Paris, France",
+          description:
+            " I was involved in a range of responsibilities, including the development of a risk assessment algorithm for predicting company failures. I conducted thorough analyses of datasets to extract relevant information, and I also focused on creating visually engaging data presentations to enhance comprehension and analysis. Handling substantial volumes of data and ensuring seamless data flow was an integral part of my role. Additionally, I contributed to the development of specialized algorithms designed to identify similar companies for competitive studies.",
+          color: "#0879bf",
+        },
+        {
           title: "Aml Audit & Solutions",
           company: "Solutions for prospecting & financial and legal information",
           company_url: "https://aml-solutions.fr/",
@@ -512,7 +523,7 @@ const experience = {
           duration: "Sep 2021 - Dec 2022",
           location: "Lille, France",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "Working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
           color: "#0879bf",
         },
         {
