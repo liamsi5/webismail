@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "hey  👋 ",
   resumeLink:
-    "https://drive.google.com/file/d/1cCtUr5H_OARCSBtI7z4ChosTpOVIaSb6/view?usp=sharing",
+    "https://drive.google.com/file/d/1ax-eozp9MnRu0kM5Xxq12b7d499z_kRY/view?usp=sharing",
   portfolio_repository: "",
   githubProfile: "https://github.com/liamsi5",
 };
@@ -638,7 +638,7 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle:
-      "Résidence  René Barjavel , 40 Rue Baudouin IX, 59650 Villeneuve-d'Ascq",
+      "Lille",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/rmrLxTJvFQ7ntxn99",
   },
