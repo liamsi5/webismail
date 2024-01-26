@@ -376,11 +376,11 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "TOEIC certifications ",
+      subtitle: "- est of english for international communication",
+      logo_path: "toeic_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "https://www.https://www.etsglobal.org/fr",
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
