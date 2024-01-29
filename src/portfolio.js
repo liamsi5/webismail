@@ -342,7 +342,7 @@ const degrees = {
       subtitle: "Computer Science and Statistics Engineer",
       logo_path: "log2_poly.png",
       alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      duration: "2021 - 2024",
       descriptions: [
         "training balanced between computer science, statistics and management, trains engineers capable of meeting these new needs. In the field of IT, the engineer knows how to create, organize, secure company information systems and control the flow of information within them.In the field of statistics, he also knows how to model, exploit, optimize and analyze large data sets."
       ],
@@ -353,7 +353,7 @@ const degrees = {
       subtitle: "deug mention informatics-mathematics",
       logo_path: "logo1_univ.png",
       alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      duration: "2020 - 2021",
       descriptions: [
         "training whose objective is to provide a solid foundation in Computer Science and Mathematics. Disciplinary lessons occupy a large part of the training. At the end of this course, the student has acquired solid knowledge of the digital world in the broad sense, ranging from programming to mathematical modeling and algorithms."
       ],
@@ -364,7 +364,7 @@ const degrees = {
       subtitle: "Computer Science and Statistics Engineer",
       logo_path: "logo1_fac.png",
       alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      duration: "2019 - 2020",
       descriptions: [
         "The structure of the SESI portal has been designed to introduce new scientific fields and thus new career prospects of a share and, to confirm the choice of the student in his choices taken in the secondary through specific pathways from the first year of license (Reinforced-Research, bilingual)"
       ],
