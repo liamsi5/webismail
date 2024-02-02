@@ -523,7 +523,7 @@ const experience = {
           duration: "Sep 2021 - Dec 2022",
           location: "Lille, France",
           description:
-            "Working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "The development of a predictive tool for enterprise default is a sophisticated approach to averting financial crises by identifying signs of a company's impending fiscal troubles. This tool would use algorithms to analyze market data and economic indicators, providing businesses with early warnings of potential distress. Simultaneously, the role of a programmer tackling diverse and multifunctional tasks is crucial in the tech industry, demanding versatility and a broad skill set. These programmers must be adept in various languages and technologies to meet the unique needs of each project. Their adaptability is key to a team's ability to innovate and respond effectively to the ever-evolving demands of software development.",
           color: "#0879bf",
         },
         {
@@ -535,7 +535,7 @@ const experience = {
           duration: "Sep 2021 - Jan 2022",
           location: "Lille, France",
           description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+            "The resolution of dubbing-related challenges through unstructured machine learning involves applying AI techniques to interpret and process non-linear data. This approach allows for the identification and correction of issues within the dubbing process, such as synchronization of speech and emotional tone matching. Unstructured machine learning thrives on large, diverse datasets, learning from the nuances of language and speech to enhance the quality of dubbed content. This technology adapts to the complexities of human language, enabling more accurate and lifelike dubbing for multimedia content. The end goal is to produce dubbing that is so seamless that it feels natural to the viewer, regardless of the original language.",
           color: "#0071C5",
         },
       ],
