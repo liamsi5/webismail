@@ -158,149 +158,148 @@ class LogoLoader extends React.Component {
           <style
             dangerouslySetInnerHTML={{
               __html: `
+                .I{
 
-      .I{
+                opacity: 0;
+                -webkit-animation: dash2 2s linear forwards 0.5s;
+                -o-animation: dash2 2s linear forwards 0.5s;
+                -moz-animation: dash2 2s linear forwards 0.5s;
+                animation: dash2 2s linear forwards 0.5s;
+              }
 
-			opacity: 0;
-			-webkit-animation: dash2 2s linear forwards 0.5s;
-			-o-animation: dash2 2s linear forwards 0.5s;
-			-moz-animation: dash2 2s linear forwards 0.5s;
-			animation: dash2 2s linear forwards 0.5s;
-		}
+              .S{
 
-		.S{
+                opacity: 0;
+                -webkit-animation: dash2 2s linear forwards 0.5s;
+                -o-animation: dash2 2s linear forwards 0.5s;
+                -moz-animation: dash2 2s linear forwards 0.5s;
+                animation: dash2 2s linear forwards 0.5s;
+              }
 
-			opacity: 0;
-			-webkit-animation: dash2 2s linear forwards 0.5s;
-			-o-animation: dash2 2s linear forwards 0.5s;
-			-moz-animation: dash2 2s linear forwards 0.5s;
-			animation: dash2 2s linear forwards 0.5s;
-		}
+              .M{
 
-		.M{
+                opacity: 0;
+                -webkit-animation: dash2 2s linear forwards 0.5s;
+                -o-animation: dash2 2s linear forwards 0.5s;
+                -moz-animation: dash2 2s linear forwards 0.5s;
+                animation: dash2 2s linear forwards 0.5s;
+              }
 
-			opacity: 0;
-			-webkit-animation: dash2 2s linear forwards 0.5s;
-			-o-animation: dash2 2s linear forwards 0.5s;
-			-moz-animation: dash2 2s linear forwards 0.5s;
-			animation: dash2 2s linear forwards 0.5s;
-		}
+              .A{
 
-		.A{
+                opacity: 0;
+                -webkit-animation: dash2 2s linear forwards 0.5s;
+                -o-animation: dash2 2s linear forwards 0.5s;
+                -moz-animation: dash2 2s linear forwards 0.5s;
+                animation: dash2 2s linear forwards 0.5s;
+              }
 
-			opacity: 0;
-			-webkit-animation: dash2 2s linear forwards 0.5s;
-			-o-animation: dash2 2s linear forwards 0.5s;
-			-moz-animation: dash2 2s linear forwards 0.5s;
-			animation: dash2 2s linear forwards 0.5s;
-		}
+              .i{
 
-		.i{
+                opacity: 0;
+                -webkit-animation: dash2 2s linear forwards 0.5s;
+                -o-animation: dash2 2s linear forwards 0.5s;
+                -moz-animation: dash2 2s linear forwards 0.5s;
+                animation: dash2 2s linear forwards 0.5s;
+              }
 
-			opacity: 0;
-			-webkit-animation: dash2 2s linear forwards 0.5s;
-			-o-animation: dash2 2s linear forwards 0.5s;
-			-moz-animation: dash2 2s linear forwards 0.5s;
-			animation: dash2 2s linear forwards 0.5s;
-		}
+              .L{
 
-		.L{
+                opacity: 0;
+                -webkit-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
+                -o-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
+                -moz-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
+                animation: dash2 2s linear forwards 0.5s, fill 1s ease forwards 4.5s;
+              }
 
-			opacity: 0;
-			-webkit-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
-			-o-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
-			-moz-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
-			animation: dash2 2s linear forwards 0.5s, fill 1s ease forwards 4.5s;
-		}
+              .C{
 
-		.C{
+                opacity: 0;
+                -webkit-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
+                -o-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
+                -moz-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
+                animation: dash2 2s linear forwards 0.5s, fill 1s ease forwards 4.5s;
+              }
 
-			opacity: 0;
-			-webkit-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
-			-o-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
-			-moz-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
-			animation: dash2 2s linear forwards 0.5s, fill 1s ease forwards 4.5s;
-		}
+              .A{
 
-		.A{
+                opacity: 0;
+                -webkit-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
+                -o-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
+                -moz-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
+                animation: dash2 2s linear forwards 0.5s, fill 1s ease forwards 4.5s;
+              }
 
-			opacity: 0;
-			-webkit-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
-			-o-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
-			-moz-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
-			animation: dash2 2s linear forwards 0.5s, fill 1s ease forwards 4.5s;
-		}
+              .Fi{
 
-		.Fi{
+                opacity: 0;
+                -webkit-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
+                -o-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
+                -moz-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
+                animation: dash2 2s linear forwards 0.5s, fill 1s ease forwards 4.5s;
+              }
 
-			opacity: 0;
-			-webkit-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
-			-o-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
-			-moz-animation: dash2 2s linear forwards 0.5s, fill 0.5s ease forwards 2.5s;
-			animation: dash2 2s linear forwards 0.5s, fill 1s ease forwards 4.5s;
-		}
+              @-webkit-keyframes dash2{
+                from{
+                  stroke: #0070fa;
+                  opacity: 0;
+                }
+                to{
+                  stroke-dashoffset: 0;
+                  opacity:1;
+                  stroke: #0070fa;
+                }
+              }
 
-		@-webkit-keyframes dash2{
-			from{
-				stroke: #0070fa;
-				opacity: 0;
-			}
-			to{
-				stroke-dashoffset: 0;
-				opacity:1;
-				stroke: #0070fa;
-			}
-		}
+              @-webkit-keyframes fill{
+                from{
+                  fill: transparent;
+                }
+                to{
+                  fill: #0070fa;
+                }
+              }
 
-		@-webkit-keyframes fill{
-			from{
-				fill: transparent;
-			}
-			to{
-				fill: #0070fa;
-			}
-		}
-
-		.brain{
-			stroke-dasharray: 4000;
-			stroke-dashoffset: 4000;
-			-webkit-animation: dash 4s linear forwards 0.5s;
-			-o-animation: dash 4s linear forwards 0.5s;
-			-moz-animation: dash 4s linear forwards 0.5s;
-			animation: dash 4s linear forwards 0.5s;
-			stroke: #0070fa;
-		}
-
-		@-webkit-keyframes dash{
-			from{
-				stroke-dashoffset: 4000;
-			}
-			to{
-				stroke-dashoffset: 0;
-				stroke: #0070fa;
-			}
-		}
-
-		.pbar{
-              stroke-dasharray: 343;
-              stroke-dashoffset: 343;
-              -webkit-animation: pbar-fill 4s ease forwards 0.5s;;
-              -o-animation: pbar-fill 4s ease forwards 0.5s;
-              -moz-animation: pbar-fill 4s ease forwards 0.5s;;
-              animation: pbar-fill 4s ease forwards 0.5s;
-            }
-
-            @-webkit-keyframes pbar-fill{
-              from{
-                stroke-dashoffset: 343;
+              .brain{
+                stroke-dasharray: 4000;
+                stroke-dashoffset: 4000;
+                -webkit-animation: dash 4s linear forwards 0.5s;
+                -o-animation: dash 4s linear forwards 0.5s;
+                -moz-animation: dash 4s linear forwards 0.5s;
+                animation: dash 4s linear forwards 0.5s;
                 stroke: #0070fa;
               }
-              to{
-                stroke-dashoffset: 0;
-                stroke: #0070fa;
+
+              @-webkit-keyframes dash{
+                from{
+                  stroke-dashoffset: 4000;
+                }
+                to{
+                  stroke-dashoffset: 0;
+                  stroke: #0070fa;
+                }
               }
-            }
-    `,
+
+              .pbar{
+                        stroke-dasharray: 343;
+                        stroke-dashoffset: 343;
+                        -webkit-animation: pbar-fill 4s ease forwards 0.5s;;
+                        -o-animation: pbar-fill 4s ease forwards 0.5s;
+                        -moz-animation: pbar-fill 4s ease forwards 0.5s;;
+                        animation: pbar-fill 4s ease forwards 0.5s;
+                      }
+
+                      @-webkit-keyframes pbar-fill{
+                        from{
+                          stroke-dashoffset: 343;
+                          stroke: #0070fa;
+                        }
+                        to{
+                          stroke-dashoffset: 0;
+                          stroke: #0070fa;
+                        }
+                      }
+                `,
             }}
           />
         </defs>
