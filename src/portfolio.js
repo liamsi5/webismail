@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Ismail Chafi",
   nickname: "Chaf-i",
   subTitle:
-    "hey  👋 ",
+    "Swipe down",
   resumeLink:
     "https://drive.google.com/file/d/1ax-eozp9MnRu0kM5Xxq12b7d499z_kRY/view?usp=sharing",
   portfolio_repository: "",
