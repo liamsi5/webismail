@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: false, // Change this to false if you don't want Splash screen.
+  isSplash: true, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Ismail Chafi",
   nickname: "Chaf-i",
   subTitle:
-    "SWIPE ↓ DOWN",
+    "hey  👋 ",
   resumeLink:
     "https://drive.google.com/file/d/1ax-eozp9MnRu0kM5Xxq12b7d499z_kRY/view?usp=sharing",
   portfolio_repository: "",
@@ -381,15 +381,6 @@ const certifications = {
       logo_path: "toeic_logo.png",
       certificate_link:
         "https://www.https://www.etsglobal.org/fr",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "TCF certifications ",
-      subtitle: "French knowledge test",
-      logo_path: "tcf.jpeg",
-      certificate_link:
-        "https://www.france-education-international.fr/",
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
