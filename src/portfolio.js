@@ -22,8 +22,7 @@ const greeting = {
   title: "Ismail ",
   logo_name: "Ismail Chafi",
   nickname: "Chaf-i",
-  subTitle:
-    "Swipe down",
+  subTitle: "Swipe down",
   resumeLink:
     "https://drive.google.com/file/d/1ax-eozp9MnRu0kM5Xxq12b7d499z_kRY/view?usp=sharing",
   portfolio_repository: "",
@@ -42,7 +41,7 @@ const socialMediaLinks = [
   {
     name: "LinkedIn",
     link: "https://linkedin.com/in/ismail-chaf-i-622b4520b",
-    fontAwesomeIcon: "fa-linkedin-in", 
+    fontAwesomeIcon: "fa-linkedin-in",
     backgroundColor: "#0077B5",
   },
 
@@ -54,7 +53,7 @@ const socialMediaLinks = [
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://x.com/ichafi465343",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
@@ -74,6 +73,62 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
+    {
+      title: "Data Engineering",
+      fileName: "DataEngineeringImg",
+      skills: [
+        "⚡ Building and maintaining scalable data pipelines and ETL/ELT workflows handling millions of raw records",
+        "⚡ Orchestrating complex workflows and scheduling pipelines with Apache Airflow",
+        "⚡ Experience handling sensitive data including healthcare data with compliance and security in mind",
+        "⚡ Data integration and flow management with Talend across heterogeneous sources",
+        "⚡ Designing and managing Big Data architectures for large-scale data processing and analytics",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Apache Airflow",
+          fontAwesomeClassname: "simple-icons:apacheairflow",
+          style: {
+            color: "#017CEE",
+          },
+        },
+        {
+          skillName: "Apache Spark",
+          fontAwesomeClassname: "simple-icons:apachespark",
+          style: {
+            color: "#E25A1C",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "logos:mysql",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+      ],
+    },
     {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
@@ -119,6 +174,60 @@ const skills = {
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
+          },
+        },
+      ],
+    },
+    {
+      title: "Cloud Infra-Architecture",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "⚡ Deploying deep learning models on cloud to use on mobile devices",
+        "⚡ flow management and data integration with Talend",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Mysql",
+          fontAwesomeClassname: "logos:mysql",
+          style: {
+            color: "transparent",
+          },
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Azure",
+          fontAwesomeClassname: "simple-icons:microsoftazure",
+          style: {
+            color: "#0089D6",
+          },
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCA28",
+          },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
           },
         },
       ],
@@ -199,93 +308,6 @@ const skills = {
         },
       ],
     },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ flow management and data integration with Talend",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Mysql",
-          fontAwesomeClassname: "logos:mysql",
-          style: {
-            color: "transparent",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-      ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Gimp",
-          fontAwesomeClassname: "simple-icons:gimp",
-          style: {
-            color: "#0066b2",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-
-      ],
-    },
   ],
 };
 
@@ -344,7 +366,7 @@ const degrees = {
       alt_name: "IIITDM Kurnool",
       duration: "2021 - 2024",
       descriptions: [
-        "training balanced between computer science, statistics and management, trains engineers capable of meeting these new needs. In the field of IT, the engineer knows how to create, organize, secure company information systems and control the flow of information within them.In the field of statistics, he also knows how to model, exploit, optimize and analyze large data sets."
+        "training balanced between computer science, statistics and management, trains engineers capable of meeting these new needs. In the field of IT, the engineer knows how to create, organize, secure company information systems and control the flow of information within them.In the field of statistics, he also knows how to model, exploit, optimize and analyze large data sets.",
       ],
       website_link: "https://www.polytech-lille.fr/",
     },
@@ -355,18 +377,19 @@ const degrees = {
       alt_name: "IIITDM Kurnool",
       duration: "2020 - 2021",
       descriptions: [
-        "training whose objective is to provide a solid foundation in Computer Science and Mathematics. Disciplinary lessons occupy a large part of the training. At the end of this course, the student has acquired solid knowledge of the digital world in the broad sense, ranging from programming to mathematical modeling and algorithms."
+        "training whose objective is to provide a solid foundation in Computer Science and Mathematics. Disciplinary lessons occupy a large part of the training. At the end of this course, the student has acquired solid knowledge of the digital world in the broad sense, ranging from programming to mathematical modeling and algorithms.",
       ],
-      website_link: "https://sciences-technologies.univ-lille.fr/mathematiques/formation/licence-mention-informatique-mathematiques",
+      website_link:
+        "https://sciences-technologies.univ-lille.fr/mathematiques/formation/licence-mention-informatique-mathematiques",
     },
-    {/*#b7126b */
-      title: "faculté de sciences technologie a lille 1",
+    {
+      /*#b7126b */ title: "faculté de sciences technologie a lille 1",
       subtitle: "Computer Science and Statistics Engineer",
       logo_path: "logo1_fac.png",
       alt_name: "IIITDM Kurnool",
       duration: "2019 - 2020",
       descriptions: [
-        "The structure of the SESI portal has been designed to introduce new scientific fields and thus new career prospects of a share and, to confirm the choice of the student in his choices taken in the secondary through specific pathways from the first year of license (Reinforced-Research, bilingual)"
+        "The structure of the SESI portal has been designed to introduce new scientific fields and thus new career prospects of a share and, to confirm the choice of the student in his choices taken in the secondary through specific pathways from the first year of license (Reinforced-Research, bilingual)",
       ],
       website_link: "https://www.univ-lille.fr/formations/fr-00009100",
     },
@@ -379,12 +402,10 @@ const certifications = {
       title: "TOEIC certifications ",
       subtitle: "- est of english for international communication",
       logo_path: "toeic_logo.png",
-      certificate_link:
-        "https://www.https://www.etsglobal.org/fr",
+      certificate_link: "https://www.https://www.etsglobal.org/fr",
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
-
   ],
 };
 
@@ -399,8 +420,29 @@ const experience = {
     {
       title: "Work",
       experiences: [
-
-        
+        // ADD YOUR WORK ENTRIES HERE
+        {
+          title: "Data Engineer",
+          company: "Cegedim",
+          company_url: "https://www.cegedim.fr/",
+          logo_path: "cegedim_logo.png",
+          duration: "Jan 2026 - Present",
+          location: "France",
+          description:
+            "Working as a Data Engineer on the migration of one of the largest medical data pipelines from Qlik to Scala. Contributing to the redesign and industrialization of complex healthcare data processing workflows in a highly sensitive environment, where data confidentiality, GDPR compliance, and strict regulatory standards are essential. Involved in building scalable and maintainable pipelines, ensuring logic parity with legacy systems while improving reliability, performance, and long-term architecture.",
+          color: "#0879bf",
+        },
+        {
+          title: "Data Engineer",
+          company: "Mixdata",
+          company_url: "https://www.mixdata.com",
+          logo_path: "mixdata_logo.png",
+          duration: "Sep 2024 - Jan 2026",
+          location: "France",
+          description:
+            "Worked on the design, optimization, and industrialization of large-scale data pipelines in a Big Data environment. Automated and optimized Spark pipelines using Airflow, Bash, and SSH-based orchestration. Resolved critical bugs and reduced technical debt across internal pipelines connected to major French data sources such as INSEE, BODACC, and INPI, improving data completeness and reliability. Designed, developed, and deployed strategic pipelines including a subsidiaries detection pipeline with Spark and Neo4j integrating 4M companies and 3.7M executives, a distributed Google Jobs pipeline using Spark Streaming, Redis, and BrightData collecting 400k+ job offers, and a contacts pipeline processing 25M profiles and validating 3M emails. Also contributed to the V2 platform architecture and DevOps practices including Docker, CI/CD, Jenkins, and Bitbucket Pipelines.",
+          color: "#0879bf",
+        },
       ],
     },
     {
@@ -408,7 +450,8 @@ const experience = {
       experiences: [
         {
           title: "Pappers ",
-          company: "Provider of financial and legal information specializing in the analysis of the financial health of businesses",
+          company:
+            "Provider of financial and legal information specializing in the analysis of the financial health of businesses",
           company_url: "https://pappers.fr/",
           logo_path: "Pappers_logo.png",
           duration: "Dec 2022 - Sep 2024  ",
@@ -419,7 +462,8 @@ const experience = {
         },
         {
           title: "Aml Audit & Solutions",
-          company: "Solutions for prospecting & financial and legal information",
+          company:
+            "Solutions for prospecting & financial and legal information",
           company_url: "https://aml-solutions.fr/",
           logo_path: "aml_logo.jpeg",
           duration: "Sep 2021 - Dec 2022",
@@ -430,9 +474,9 @@ const experience = {
         },
         {
           title: "babeledge",
-          company: "Platform specialized in Artificial Intelligence applied to the dubbing industry.",
-          company_url:
-            "https://babeledge.com/",
+          company:
+            "Platform specialized in Artificial Intelligence applied to the dubbing industry.",
+          company_url: "https://babeledge.com/",
           logo_path: "babel.jpeg",
           duration: "Sep 2021 - Jan 2022",
           location: "Lille, France",
@@ -445,7 +489,6 @@ const experience = {
     {
       title: "Volunteerships",
       experiences: [
-
         {
           title: "Developer Program Member",
           company: "Github",
@@ -539,8 +582,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Lille",
+    subtitle: "Lille",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/rmrLxTJvFQ7ntxn99",
   },
